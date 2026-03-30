@@ -97,6 +97,8 @@ These selections dynamically update all analysis pages.
 
 The system follows a data-driven pipeline:
 
+![TxPWC code pipeline](resources/content/images/txpwc_code_pipeline.png)
+
 1. Data ingestion  
    - Observed data (CSV)  
    - Simulated outputs (Parquet)  
