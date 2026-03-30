@@ -97,7 +97,11 @@ These selections dynamically update all analysis pages.
 
 The system follows a data-driven pipeline:
 
-![TxPWC code pipeline](https://github.com/spark-hydro/txpwc-interactive-dashboard/blob/main/resources/content/images/txpwc_code_pipeline.png)
+<br>
+<p align="center">
+<img src="https://github.com/spark-brc/crb_apexmf/blob/main/resources/watershed/Animas/description/ani_ssmf_results.png?raw=true" width="1000">
+</p>
+*Figure 2. Maps of simulation results from the steady-state MODFLOW model* 
 
 1. Data ingestion  
    - Observed data (CSV)  
