@@ -1,0 +1,17 @@
+{
+  "basins": {
+    "demo_basin": {
+      "label": "Demo Basin",
+      "model_types": ["txpwc_demo", "swat_gwflow_future"],
+      "scenarios": ["baseline", "alt_release"],
+      "description": "Starter demo basin for initial architecture testing."
+    },
+  "Pecos": {
+    "label": "Pecos River Watershed",
+    "model_types": ["SWAT+gwflow"],
+    "scenarios": ["baseline", "alt_release"],
+    "description": "Pecos River Watershed in Texas and New Mexico, USA",
+    "observed_data": "data_dailyvalues_Pecos.csv"
+  }
+  }
+}

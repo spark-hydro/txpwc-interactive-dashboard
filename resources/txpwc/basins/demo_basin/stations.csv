@@ -1,0 +1,4 @@
+site_id,name,lat,lon,kind
+STF01,Stream Gage 1,31.432,-103.221,streamflow
+GW01,Groundwater Well 1,31.381,-103.101,groundwater
+GW02,Groundwater Well 2,31.552,-102.951,groundwater

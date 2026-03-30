@@ -1,0 +1,6 @@
+﻿station_id,name,variable,lat,lon,subbasin,site_no,gis_id
+Q01,USGS Stream Gage 1,flow,31.432,-103.221,12,08447300,417
+SED01,Sediment Site 1,sediment,31.41,-103.18,15,08447020,440
+GW01,Monitoring Well 1,groundwater,31.381,-103.101,8,08447000,417
+Q02,USGS Stream Gage 2,flow,31.39,-103.11,447,08447300,447
+Q05,USGS Stream Gage 1,flow,31.432,-103.221,12,08379500,17

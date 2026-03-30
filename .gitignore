@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual env
+.env
+.venv
+.vscode
+
+# Data (VERY IMPORTANT)
+resources/txpwc/basins/*/raw/
+*.shp
+*.dbf
+*.shx
+*.prj
+
+# OS
+.DS_Store
+Thumbs.db
