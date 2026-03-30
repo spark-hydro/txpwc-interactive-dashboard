@@ -4,6 +4,7 @@ from components.sidebar import render_sidebar
 from config.settings import APP_ICON, APP_TITLE
 from core.io.filesystem import safe_markdown_read
 from config.settings import CONTENT_DIR
+from pathlib import Path
 
 
 st.set_page_config(
@@ -27,7 +28,10 @@ st.write(
     }
 )
 
+def read_markdown_file(markdown_file):
+    return Path(markdown_file).read_text()
 
+st.markdown(read_markdown_file(CONTENT_DIR / "home.md"),  unsafe_allow_html=True)
 
 
 # st.title(APP_TITLE)
