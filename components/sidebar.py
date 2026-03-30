@@ -87,7 +87,7 @@ def render_sidebar() -> AppContext:
                 .sidebar-logos {{
                     position: fixed;
                     bottom: 20px;
-                    width: 200px;
+                    width: 100%;
                     display: flex;
                     gap: 1px;
                 }}
@@ -95,9 +95,9 @@ def render_sidebar() -> AppContext:
             <div class="sidebar-logos">
                 <a href="https://www.depts.ttu.edu/waterresources/" target="_blank">
                     <img src="data:image/png;base64,{get_base64_image('assets/logos/water_center.png')}" 
-                        style="width:140px;">
+                        style="width:160px;">
                 </a>
-                <a href="https://ihydro.com" target="_blank">
+                <a href="https://spark-hydro.github.io/" target="_blank">
                     <img src="data:image/png;base64,{get_base64_image('assets/logos/ihydro_lab.png')}" 
                         style="width:80px;">
                 </a>

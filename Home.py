@@ -11,7 +11,7 @@ st.set_page_config(
     page_title=APP_TITLE,
     page_icon=APP_ICON,
     layout="wide",
-    initial_sidebar_state="expanded",
+    # initial_sidebar_state="expanded",
 )
 
 context = render_sidebar()
