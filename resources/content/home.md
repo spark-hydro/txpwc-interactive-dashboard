@@ -8,7 +8,7 @@ The consortium is led by Texas Tech University and brings together a diverse gro
 <p align="center"><img src="https://github.com/spark-hydro/txpwc-dashboard/blob/main/resources/content/images/research_team.png?raw=true" width="1000"></p>
 
 ### Active and diverse stakeholder membership
-<p align="center"><img src="https://github.com/spark-hydro/txpwc-dashboard/blob/main/resources/content/images/members_ehnanced.png?raw=true" width="1000"></p>
+<p align="center"><img src="https://github.com/spark-hydro/txpwc-dashboard/blob/main/resources/content/images/members_enhanced.png?raw=true" width="1000"></p>
 
 - Agriculture and landowners  
 - Oil and gas (upstream and midstream)  
