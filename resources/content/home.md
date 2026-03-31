@@ -1,9 +1,13 @@
-# Texas Produced Water Consortium (TxPWC)
-
-## Overview
+# TxPWC Dashboard
+## Project Overview
 The Texas Produced Water Consortium (TxPWC) was established by SB601 (2021) to evaluate the technical and economic feasibility of beneficial reuse of treated produced water in Texas.
 
 The consortium is led by Texas Tech University and brings together a diverse group of stakeholders, including:
+
+### Texas Tech Research Team
+<p align="center"><img src="https://github.com/spark-hydro/txpwc-dashboard/blob/main/resources/content/images/research_team.png?raw=true" width="1000"></p>
+
+
 - Agriculture and landowners  
 - Oil and gas (upstream and midstream)  
 - Environmental organizations  
@@ -96,13 +100,9 @@ These selections dynamically update all analysis pages.
 ## Modeling Framework (High-Level)
 
 The system follows a data-driven pipeline:
-
-<br>
 <p align="center"><img src="https://github.com/spark-hydro/txpwc-dashboard/blob/main/resources/content/images/txpwc_code_pipeline.png?raw=true" width="1000"></p>
+
 *Figure 2. Maps of simulation results from the steady-state MODFLOW model* 
-
-
-
 
 1. Data ingestion  
    - Observed data (CSV)  

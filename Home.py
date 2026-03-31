@@ -16,7 +16,7 @@ st.set_page_config(
 
 context = render_sidebar()
 
-st.title("Home")
+# st.title("Home")
 # st.markdown(safe_markdown_read(CONTENT_DIR / "home.md"))
 def read_markdown_file(markdown_file):
     return Path(markdown_file).read_text()
