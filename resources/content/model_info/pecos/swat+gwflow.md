@@ -36,18 +36,18 @@ In this project, the framework is used to simulate:
 - Potential impacts under alternative release strategies  
 
 <!-- Placeholder: SWAT+gwflow conceptual figure -->
-<p align="center"><img src="https://github.com/spark-hydro/txpwc-dashboard/blob/main/resources/content/images/swat+gwflow_framework.png?raw=true" width="500"></p>
+<p align="center"><img src="https://github.com/spark-hydro/txpwc-dashboard/blob/main/resources/content/images/swat+gwflow_framework.png?raw=true" width="1000"></p>
 
 *Figure 2. Placeholder for the SWAT+gwflow conceptual framework used in the Pecos River Basin.*
 
-## 1.3 Model Inputs and Configuration
+## Model Inputs and Configuration
 
-The Pecos River Basin model was developed using datasets and workflows adapted from the **CoSWAT framework**. The model setup shown in the presentation includes the following main inputs: :contentReference[oaicite:6]{index=6}
+The Pecos River Basin model was developed using datasets and workflows adapted from the **CoSWAT framework**. The model setup shown in the presentation includes the following main inputs: 
 
 - **DEM:** ASTER Global DEM  
 - **Land use:** ESA land cover data  
 - **Soils:** FAO soil data  
-- **Weather:** reanalysis forcing through the ISIMIP framework  :contentReference[oaicite:7]{index=7}
+- **Weather:** reanalysis forcing through the ISIMIP framework  
 
 The development workflow shown in the presentation includes:
 
@@ -58,13 +58,13 @@ The development workflow shown in the presentation includes:
 - Preparation for server-based evaluation and dashboard integration  :contentReference[oaicite:8]{index=8}
 
 <!-- Placeholder: model setup workflow -->
-![Model setup workflow](images/model_setup_workflow_placeholder.png)
+<p align="center"><img src="https://github.com/spark-hydro/txpwc-dashboard/blob/main/resources/content/images/dataset.png?raw=true" width="1000"></p>
 
 *Figure 3. Placeholder for the Pecos River model setup and preprocessing workflow.*
 
-## 1.4 Solute Transport and Produced Water Representation
+## Solute Transport and Produced Water Representation
 
-A key advantage of the selected framework is its ability to represent **solute transport** together with coupled hydrologic processes. The presentation highlights tracking of multiple dissolved constituents and exchange across watershed, vadose zone, stream, and groundwater systems. :contentReference[oaicite:9]{index=9}
+A key advantage of the selected framework is its ability to represent **solute transport** together with coupled hydrologic processes. The presentation highlights tracking of multiple dissolved constituents and exchange across watershed, vadose zone, stream, and groundwater systems. 
 
 This is important for the TxPWC project because treated produced water assessment requires analysis of:
 
@@ -72,16 +72,16 @@ This is important for the TxPWC project because treated produced water assessmen
 - Groundwater–surface water exchange  
 - In-stream transport processes  
 - Land application and irrigation scenarios  
-- Salinity and constituent response under different management conditions  :contentReference[oaicite:10]{index=10}
+- Salinity and constituent response under different management conditions
 
 <!-- Placeholder: solute transport schematic -->
 ![Solute transport schematic](images/solute_transport_placeholder.png)
 
 *Figure 4. Placeholder for a conceptual diagram of coupled hydrologic and solute transport processes.*
 
-## 1.5 Calibration, Uncertainty, and Scenario Analysis
+## Parameterization and Calibration Uncertainty
 
-The broader modeling workflow includes calibration, uncertainty analysis, and scenario evaluation using **pyEMU**, **FloPy**, and PEST++-based utilities. The presentation also references supporting workflows such as **swatp_pst_wf**, as well as scenario-based and optimization tools for uncertainty-aware decision support. :contentReference[oaicite:11]{index=11}
+The broader modeling workflow includes calibration, uncertainty analysis, and scenario evaluation using **pyEMU**, **FloPy**, and PEST++-based utilities. The presentation also references supporting workflows such as **swatp_pst_wf**, as well as scenario-based and optimization tools for uncertainty-aware decision support. 
 
 The uncertainty and scenario-analysis framework is intended to support evaluation of:
 
@@ -89,37 +89,30 @@ The uncertainty and scenario-analysis framework is intended to support evaluatio
 - Groundwater levels  
 - Water quality responses  
 - Scenario-based comparisons  
-- Optimization of release strategies  :contentReference[oaicite:12]{index=12}
+- Optimization of release strategies 
 
 Relevant PEST++ tools mentioned in the presentation include:
 
 - **PESTPP-MOU** for constrained multi-objective optimization  
 - **PESTPP-SEN** for sensitivity analysis  
 - **PESTPP-IES** for optimization under uncertainty  
-- **PESTPP-SWP** for scenario analysis using predefined parameter or input sets  :contentReference[oaicite:13]{index=13}
+- **PESTPP-SWP** for scenario analysis using predefined parameter or input sets 
 
-## 1.6 Produced Water Application Scenarios
 
-The Pecos River case study is being used to evaluate real and potential produced water reuse scenarios. The presentation highlights both:
-
-- **In-stream application scenarios**  
-- **Land application (irrigation) scenarios**  :contentReference[oaicite:14]{index=14}
-
-It also references example release capacities associated with candidate applications, indicating the model is intended to support comparison of baseline, scenario, and optimized release strategies. :contentReference[oaicite:15]{index=15}
-
-<!-- Placeholder: scenario map -->
-![Produced water application scenarios](images/scenario_map_placeholder.png)
-
-*Figure 5. Placeholder for produced water release locations and scenario configurations.*
-
-## 1.7 Current Development Status
+## Current Development Status
 
 The current dashboard-connected model information page is intended to summarize:
 
 - Study area and model domain  
-- SWAT+gwflow framework and rationale  
+- SWAT+gwflow framework   
 - Input datasets and configuration  
 - Solute transport and water quality relevance  
 - Calibration, uncertainty, and scenario-analysis approach  
 
 Additional basin-specific and model-specific figures, parameter tables, and workflow diagrams can be added as the dashboard content continues to expand.
+
+## Planned Manuscripts and Submission Timeline
+
+- Assessing Hydrological Impacts of Purified Produced Water Reuse in the Pecos River Basin Using SWAT+ gwflow (target: August)
+- Assessing Salinity Sources and Baseflow Constraints in the Pecos River Basin Using SWAT+ gwflow (target: December)
+- Integrating Random Forest with SWAT+ gwflow for Predicting and Mapping River Salinity in the Pecos River Basin (target: December)

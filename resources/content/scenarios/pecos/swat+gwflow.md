@@ -12,9 +12,17 @@ The Pecos River application is designed to evaluate multiple management conditio
 
 - Baseline or existing-condition simulations
 - In-stream produced water release scenarios
-- Land application or irrigation-related scenarios
-- Candidate optimized release strategies
 
+<p align="center"><img src="https://github.com/spark-hydro/txpwc-dashboard/blob/main/resources/content/images/fdc_scenarios.png?raw=true" width="1000"></p>
+
+- Land application or irrigation-related scenarios
+<p align="center"><img src="https://github.com/spark-hydro/txpwc-dashboard/blob/main/resources/content/images/land_scenarios.png?raw=true" width="1000"></p>
+
+- Candidate optimized release strategies
+<p align="center"><img src="https://github.com/spark-hydro/txpwc-dashboard/blob/main/resources/content/images/mou.png?raw=true" width="1000"></p>
+
+
+<p align="center"><img src="https://github.com/spark-hydro/txpwc-dashboard/blob/main/resources/content/images/ua.gif?raw=true" width="1000"></p>
 ## Key Scenario Questions
 
 Scenario analysis is intended to support the following questions:
@@ -36,6 +44,12 @@ A scenario can be defined by combining several factors, such as:
 
 These inputs can produce substantially different downstream and groundwater responses.
 
+## Relevant PEST++ tools
+- **PESTPP-MOU** for constrained multi-objective optimization  
+- **PESTPP-SEN** for sensitivity analysis  
+- **PESTPP-IES** for optimization under uncertainty  
+- **PESTPP-SWP** for scenario analysis using predefined parameter or input sets 
+
 ## Dashboard Use
 
 This page can be developed to support:
@@ -46,8 +60,3 @@ This page can be developed to support:
 - Summary tables of key metrics
 - Selection of predefined scenarios from the sidebar or page controls
 
-## Planned Visuals
-
-![Scenario map placeholder](images/scenario_placeholder.png)
-
-*Figure. Placeholder for produced water release points, scenario comparison maps, and scenario-specific plots.*
