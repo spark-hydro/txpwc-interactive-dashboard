@@ -194,7 +194,7 @@ with tab1:
         fig_sub.update_layout(
             title=f"Streamflow - Subbasin {selected_subbasin}",
             xaxis_title="Date",
-            yaxis_title="Flow",
+            yaxis_title="Streamflow Discharge (cm³/s)",
             hovermode="x unified"
         )
 
@@ -310,7 +310,7 @@ with tab3:
             fig.update_layout(
                 title=f"Sediment - Subbasin {selected_subbasin}",
                 xaxis_title="Date",
-                yaxis_title="Sediment",
+                yaxis_title="Sediment (Tons/day)",
                 hovermode="x unified",
             )
 
