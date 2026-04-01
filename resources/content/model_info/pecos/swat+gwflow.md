@@ -1,8 +1,7 @@
-# 1. Model Construction and Setup
+# Model Construction and Setup
+## Study Area
 
-## 1.1 Study Area
-
-The study area is the **Pecos River Basin**, which was selected to evaluate the hydrological impacts of purified produced water application under the Texas Produced Water Consortium (TxPWC) project. The overall objective is to identify the major hydrological and ecological processes during and after the release of purified produced water, including impacts on streamflow, ecosystems, and aquifer systems. :contentReference[oaicite:1]{index=1}
+The study area is the **Pecos River Basin**, which was selected to evaluate the hydrological impacts of purified produced water application under the Texas Produced Water Consortium (TxPWC) project. The overall objective is to identify the major hydrological and ecological processes during and after the release of purified produced water, including impacts on streamflow, ecosystems, and aquifer systems. 
 
 The current Pecos River model domain includes:
 
@@ -13,13 +12,13 @@ The current Pecos River model domain includes:
 - **Soil classes:** 18  :contentReference[oaicite:2]{index=2}
 
 <!-- Placeholder: Pecos study area map -->
-<p align="center"><img src="https://github.com/spark-hydro/txpwc-dashboard/blob/main/resources/content/images/study_area.png?raw=true" width="1000"></p>
+<p align="center"><img src="https://github.com/spark-hydro/txpwc-dashboard/blob/main/resources/content/images/study_area.png?raw=true" width="500"></p>
 
 *Figure 1. Placeholder for the Pecos River Basin study area and model domain.*
 
-## 1.2 SWAT+gwflow Model
+## SWAT+gwflow Model Construction
 
-This project uses **SWAT+gwflow** as the primary integrated hydrologic modeling framework. SWAT+ provides a semi-distributed watershed-scale ecosystem model that simulates land-phase hydrologic processes, in-stream routing, nutrient transport, crop growth, and water management processes across long time periods using a daily time step. :contentReference[oaicite:3]{index=3}
+This project uses **SWAT+gwflow** as the primary integrated hydrologic modeling framework. SWAT+ provides a semi-distributed watershed-scale ecosystem model that simulates land-phase hydrologic processes, in-stream routing, nutrient transport, crop growth, and water management processes across long time periods using a daily time step. 
 
 The SWAT+gwflow framework was selected because it supports:
 
@@ -27,17 +26,17 @@ The SWAT+gwflow framework was selected because it supports:
 - Explicit groundwater–surface water interaction  
 - Solute transport and concentration tracking  
 - Water availability and management scenario analysis  
-- In-stream and land-application assessments  :contentReference[oaicite:4]{index=4}
+- In-stream and land-application assessments 
 
 In this project, the framework is used to simulate:
 
 - Key hydrological and ecological processes  
 - Fate and transport of released purified produced water  
 - Spatial and temporal variability in watershed response  
-- Potential impacts under alternative release strategies  :contentReference[oaicite:5]{index=5}
+- Potential impacts under alternative release strategies  
 
 <!-- Placeholder: SWAT+gwflow conceptual figure -->
-![SWAT+gwflow conceptual framework](images/swat_gwflow_concept_placeholder.png)
+<p align="center"><img src="https://github.com/spark-hydro/txpwc-dashboard/blob/main/resources/content/images/swat+gwflow_framework.png?raw=true" width="500"></p>
 
 *Figure 2. Placeholder for the SWAT+gwflow conceptual framework used in the Pecos River Basin.*
 
